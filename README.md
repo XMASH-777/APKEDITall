@@ -3,7 +3,7 @@
 
 **``ໃຫ້ແອັດເຊ່ນ ຊື່ໃນສຕິງ owner_info``**
 **``ໃຫ້ ຂຽນ @string/owner_info``**
-**```android:text="@string/owner_info```**
+**``android:text="@string/owner_info``**
 ```
 <string name="owner_info">"👤OWN : ລັດ
 "<font color="#ffffff">🧩CREATE : ANONYMOUS 모</font>"
