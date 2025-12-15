@@ -58,6 +58,29 @@
     </item>
 </selector>
 ```
-
-
+**ພື້ນຫລັງ**
+```
+android:background=""
+```
+**ສີ**
+```
+android:textColor=""
+```
+**ຂ້ໍຄວາມ**
+```
+android:text=""
+```
+**ຕົວຫນາ**
+```
+android:textStyle="bold"
+```
+**ຂະຫນາດ**
+```
+android:textSize=""
+```
+**ສໄຕ**
+```
+android:fontFamily="@font/..."
+```
+**``ສ້າງໃນ base_src/res/font/``**
 
