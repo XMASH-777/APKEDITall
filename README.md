@@ -109,5 +109,5 @@ android:fontFamily="@font/..."
 75%	BF
 50%	80
 25%	40
-10% 1A``
+10% 1A
 
