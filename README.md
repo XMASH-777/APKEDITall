@@ -1,7 +1,7 @@
 # APKEDITall
 ![Screenshot_2025-12-15-10-51-24-94_7c3fb34883d75b964ca4894b441e0887](https://github.com/user-attachments/assets/f12902b1-7fe7-4196-be5a-4823f4019917)
 
-# ໃຫ້ແອັດເຊ່ນ ຊື່ໃນສຕິງ owner_info
+``ໃຫ້ແອັດເຊ່ນ ຊື່ໃນສຕິງ owner_info``
 # ໃຫ້ ຂຽນ @string/owner_info
 **android:text="@string/owner_info**
 ```
