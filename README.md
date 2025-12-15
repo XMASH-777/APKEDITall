@@ -36,5 +36,28 @@
 ```
 <color name="formy2">#80b217bf</color>
 ```
+# ເພິມຂອບ
+**YELLOW 🟡**
+```
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid
+                android:color="@android:color/transparent" />
+            <corners
+                android:radius="24.0dip" />
+            <stroke
+                android:width="2.0dip"
+                android:color="@color/yellow" />
+        </shape>
+    </item>
+</selector>
+```
+
 
 
