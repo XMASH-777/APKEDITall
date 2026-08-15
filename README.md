@@ -111,4 +111,21 @@ android:fontFamily="@font/..."
 =50%	80
 =25%	40
 =10%    1A
+<img width="1079" height="1537" alt="Screenshot_2026-08-15-13-52-18-37_5d0571500ced2bca8e5a47a12b5ba108" src="https://github.com/user-attachments/assets/c5eda184-6cab-4247-9fe2-53962f432d21" />
 
+```
+<TextView
+                        android:textSize="14.0sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6.0dip"
+                        android:text="P R O"
+                        android:letterSpacing="0.5" />
+                    <View
+                        android:background="#00E1FF"
+                        android:layout_width="120.0dip"
+                        android:layout_height="2.0dip"
+                        android:layout_marginBottom="10.0dip" />
+```
