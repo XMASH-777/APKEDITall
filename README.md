@@ -111,8 +111,10 @@ android:fontFamily="@font/..."
 =50%	80
 =25%	40
 =10%    1A
+
 <img width="1079" height="1537" alt="Screenshot_2026-08-15-13-52-18-37_5d0571500ced2bca8e5a47a12b5ba108" src="https://github.com/user-attachments/assets/c5eda184-6cab-4247-9fe2-53962f432d21" />
 
+# ເພີ່ມເສັ້ນຂີດຢູ່ລຸ່ມ
 ```
 <TextView
                         android:textSize="14.0sp"
