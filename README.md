@@ -131,3 +131,6 @@ android:fontFamily="@font/..."
                         android:layout_height="2.0dip"
                         android:layout_marginBottom="10.0dip" />
 ```
+```
+<string name="b1"><font color="#FFFFFF">WeChat</font> : <font color="#00FF00">online</font></string>
+```
