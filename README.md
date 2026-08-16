@@ -9,7 +9,11 @@
 "<font color="#ffffff">🧩CREATE : ANONYMOUS 모</font>"
 "<font color="#ffff00">⚙️USER : PREMIUM</font></string>
 ```
-```<string name="b1"><font color="#FFFFFF">WeChat Proxy</font> : <font color="#00FF00">online</font></string>
+
+<img width="535" height="123" alt="Screenshot_2026-08-16-09-12-17-84_9bb1ebbbe77763a71e2076eef80e3e18" src="https://github.com/user-attachments/assets/b6ce0a80-07e1-463e-a27e-d91905aa4629" />
+
+```
+<string name="b1"><font color="#FFFFFF">WeChat Proxy</font> : <font color="#00FF00">online</font></string>
 ```
 ```
 <string name="apphome">SUPER<font color="#ffee00"> FAST</font></string>
