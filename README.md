@@ -206,5 +206,75 @@ android:gravity="top|start"
 ```
 android:gravity="bottom|end"
 ```
+<img width="1080" height="247" alt="Screenshot_2026-08-16-08-33-08-15_9bb1ebbbe77763a71e2076eef80e3e18" src="https://github.com/user-attachments/assets/9b800fd4-e21a-4a2f-aa34-3c5a605ddc33" />
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#00646F"
+        android:endColor="#78AB00"
+        android:angle="90.0" />
+    <corners
+        android:radius="12.0dip" />
+</shape>
+```
+
+# กลุ่มที่ 1: การไล่เฉดสี (Gradient)
+```
+android:startColor="..."
+```
+= สีเริ่มต้น (สีจุดแรก)
+```
+android:endColor="..."
+```
+= สีสิ้นสุด (สีจุดสุดท้าย)
+```
+android:centerColor="..."
+```
+= สีตรงกลาง (ใช้เมื่อต้องการไล่สีแบบ 3 สี)
+```
+android:angle="..."
+```
+= องศาการไล่ทิศทางของสี (เช่น 0 คือซ้ายไปขวา, 90 คือล่างขึ้นบน โดยต้องใส่เป็นทวีคูณของ 45 เช่น 0, 45, 90, 180)
+```
+android:type="..."
+```
+= รูปแบบการไล่สี
+ตัวอย่างการเขียนในโค้ด:
+***xml<gradient
+    android:startColor="#FF0000" 
+    android:centerColor="#00FF00"
+    android:endColor="#0000FF"
+    android:angle="45" />***
+
+# กลุ่มที่ 2: การทำมุมโค้งมน (Corners)คำสั่งเหล่านี้ต้องเขียนอยู่ภายในแท็ก <corners /> เพื่อใช้ปรับให้ขอบของกล่องมีความโค้งมน ไม่เป็นเหลี่ยมแหลมๆ ครับ
+```
+android:radius="..."
+```
+= ปรับให้โค้งมน "เท่ากันทั้ง 4 มุม" พร้อมกันเลย
+```
+android:topLeftRadius="..."
+```
+= ปรับความโค้งเฉพาะ "มุมบนซ้าย"
+```
+android:topRightRadius="..."
+```
+= ปรับความโค้งเฉพาะ "มุมบนขวา"
+```
+android:bottomLeftRadius="..."
+```
+= ปรับความโค้งเฉพาะ "มุมล่างซ้าย"
+```android:bottomRightRadius="..."
+```
+= ปรับความโค้งเฉพาะ "มุมล่างขวา"ข้อควรระวัง: ถ้าใส่ **android:radius** ไปแล้ว มันจะคุมทับทุกมุม ทั่วไปจึงมักเลือกใช้อย่างใดอย่างหนึ่ง (โค้งเท่ากันหมดใช้ radius ตัวเดียวจบ
+เก๋ๆ -->
+***<corners
+    android:topLeftRadius="8dp"
+    android:topRightRadius="0dp"
+    android:bottomLeftRadius="0dp"
+    android:bottomRightRadius="8dp" />***
 
 
