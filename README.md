@@ -150,29 +150,5 @@ android:layout_marginBottom="10.0dip" />
 ```marginBottom```
 **ไม่ได้ทำให้ตัว View สูงขึ้น แต่เป็นการเพิ่มพื้นที่ว่างหลัง View ครับ.**
 
-and
-dndidndroid:gravity="center"
-
-center → 
-กลางทั้งแนวตั้งและแนวนอน
-
-center_horizontal → 
-กลางแนวนอน (ซ้ายขวา)การ
-
-center_vertical → 
-กลางแนวตั้ง (บนล่าง)
-
-left >>
-ชิดซ้าย
-right >>
-ชิดขวา
-top >>
-ชิดบน
-bottom >>
-ชิดล่าง
-
-start >>
-ชิดด้านเริ่มต้นของภาษา (LTR=ซ้าย, RTL=ขวา)
-
-end >>
-ชิดด้านสิ้นสุดของภาษา (LTR=ขวา, RTL=ซ้าย)
+# 1. กลางandroid
+กลางandroid:gravity="center" (กลางทั้งแนวตั้งและแนวนอน)android:gravity="center_horizontal" (กลางแนวนอน ซ้าย-ขวา)android:gravity="center_vertical" (กลางแนวตั้ง บน-ล่าง)
