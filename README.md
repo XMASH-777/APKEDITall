@@ -1,4 +1,4 @@
-# APKEDITall
+ครับDITall
 ![Screenshot_2025-12-15-10-51-24-94_7c3fb34883d75b964ca4894b441e0887](https://github.com/user-attachments/assets/f12902b1-7fe7-4196-be5a-4823f4019917)
 
 **``ໃຫ້ແອັດເຊ່ນ ຊື່ໃນສຕິງ owner_info``**
@@ -256,7 +256,7 @@ android:type="..."
     android:endColor="#0000FF"
     android:angle="45" />***
 
-# กลุ่มที่ 2: การทำมุมโค้งมน (Corners)คำสั่งเหล่านี้ต้องเขียนอยู่ภายในแท็ก <corners /> เพื่อใช้ปรับให้ขอบของกล่องมีความโค้งมน ไม่เป็นเหลี่ยมแหลมๆ ครับ
+# กลุ่มที่ 2: การทำมุมโค้งมน (CoCorner
 ```
 android:radius="..."
 ```
@@ -282,10 +282,10 @@ android:bottomRightRadius="..."
 cornersrs
 ***android:topLeftRadius="8dp"
     android:topRightRadius="0dp"
-    android:bottomLeftRadius="0dp"
-    android:bottomRightRadius="8dp" />***
+    android:bottomLeftRadius="0d08dp  android:bottomRightRadius="8d8dp />***
 
 # ຂະຫນາດ ສີ ຟອນ
+
 ```
 android:textColor="#FF0000"
 ```
@@ -294,4 +294,69 @@ android:textSize="20.0sp"
 ```
 ```
 android:fontFamily="@font/boom"
+```
+```
+android:layout_width="...dp"
+```
+ ➢(ความกว้าง)
+```
+android:layout_height="...dp"
+```
+ (ความสูง)
+```match_parent``` = ขยายขนาดให้ เต็มพื้นที่
+```wrap_content``` = หดขนาดกล่องให้ พอดีเป๊ะ
+
+```
+android:textStyle="..."
+```
+ = รูปแบบตัวอักษร (ใส่ ```bold``` เพื่อทำตัวหนา, ใส่ ```italic``` เพื่อทำตัวเอียง)
+
+```
+android:background="..."
+```
+```
+android:id="@+id/..."
+```
+➢สร้างไอดีใหม่
+```
+android:padding="..."
+```
+➢(ระยะห่างภายใน)
+```
+android:layout_margin="..."
+```
+ ➢(ระยะห่างภายนอก)
+```
+ android:paddingStart
+```
+➢(เว้นระยะห่างภายใน ด้านเริ่มต้นของภาษา)
+```
+android:layout_marginTop 
+```
+➢(เว้นระยะห่างภายนอก ด้านบน)
+
+สรุปกลุ่มทิศทางทั้งหมดที่ใช้ร่วมกันได้
+ด้านบน: 
+```marginTop```
+```paddingTop```
+➢ด้านล่าง
+```
+marginBottom
+```
+```
+paddingBottom
+```
+➢ด้านเริ่มต้น (ซ้าย): 
+```
+layout_marginStart
+```
+```
+paddingStart
+```
+➢ด้านสิ้นสุด (ขวา):
+```
+layout_marginEnd
+```
+```
+paddingEnd
 ```
