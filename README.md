@@ -202,6 +202,7 @@ android:gravity="top|start"
 android:gravity="bottom|end"
 ```
  (ชิดล่างและชิดขวา)
-```android:gravity="center_vertical|end"
+```
+android:gravity="center_vertical|end"
 ```
  (กลางแนวตั้งและชิดขวา)
