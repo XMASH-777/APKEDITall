@@ -152,6 +152,12 @@ android:layout_marginBottom="10.0dip" />
 
 **กลุ่มจัดตำแหน่งตรงกลาง**
 
-```android:gravity="center"``` (กลางทั้งแนวตั้งและแนวนอน)
-```android:gravity="center_horizontal"``` (กลางแนวนอน ซ้าย-ขวา)
-```android:gravity="center_vertical"``` (กลางแนวตั้ง บน-ล่าง)
+```
+android:gravity="center"
+``` (กลางทั้งแนวตั้งและแนวนอน)
+```
+android:gravity="center_horizontal"
+``` (กลางแนวนอน ซ้าย-ขวา)
+```
+android:gravity="center_vertical"
+``` (กลางแนวตั้ง บน-ล่าง)
