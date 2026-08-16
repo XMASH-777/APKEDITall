@@ -131,6 +131,7 @@ android:fontFamily="@font/..."
                         android:layout_height="2.0dip"
                         android:layout_marginBottom="10.0dip" />
 ```
+**ເພິ່ມໄລຍະ ໃຫ້ຫ່າງຈາກລຸ່ມ**
 ```
-<string name="b1"><font color="#FFFFFF">WeChat</font> : <font color="#00FF00">online</font></string>
-```
+android:layout_marginTop="10.0dip"
+`ข้างล่างเส้นห่างกัน 10dp
