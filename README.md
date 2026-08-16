@@ -154,10 +154,54 @@ android:layout_marginBottom="10.0dip" />
 
 ```
 android:gravity="center"
-``` (กลางทั้งแนวตั้งและแนวนอน)
+```
+ (กลางทั้งแนวตั้งและแนวนอน)
 ```
 android:gravity="center_horizontal"
-``` (กลางแนวนอน ซ้าย-ขวา)
+```
+(กลางแนวนอน ซ้าย-ขวา)
 ```
 android:gravity="center_vertical"
-``` (กลางแนวตั้ง บน-ล่าง)
+```
+ (กลางแนวตั้ง บน-ล่าง)
+
+2. **กลุ่มอิงตามทิศทางภาษา (แนะนำให้ใช้)**
+
+```
+android:gravity="start"
+```
+ (ชิดด้านเริ่มต้น
+```
+android:gravity="end"
+```
+ (ชิดด้านสิ้นสุด
+
+```
+android:gravity="left"
+``` 
+(ชิดซ้ายตายตัว)
+```
+android:gravity="right"
+```
+ (ชิดขวาตายตัว)
+```
+android:gravity="top"
+```
+ (ชิดบน)
+```
+android:gravity="bottom"
+``` 
+(ชิดล่าง)
+
+4. กลุ่มผสมคำสั่ง (ใช้เครื่องหมาย | )
+```
+android:gravity="top|start"
+```
+ (ชิดบนและชิดซ้าย)
+```
+android:gravity="bottom|end"
+```
+ (ชิดล่างและชิดขวา)
+```android:gravity="center_vertical|end"
+```
+ (กลางแนวตั้งและชิดขวา)
