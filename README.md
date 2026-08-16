@@ -360,3 +360,32 @@ layout_marginEnd
 ```
 paddingEnd
 ```
+
+<details>
+<summary>➢ รูปแบบกล่อง IMAGEVIEW</summary>
+
+```xml
+<shape android:shape="rectangle"> ➢ รูปทรง สี่เหลี่ยม (นิยมที่สุด)
+<shape android:shape="oval">      ➢ รูปทรง วงกลม หรือ วงรี
+<shape android:shape="line">      ➢ รูปทรง เส้นตรง
+
+# 2. กลุ่มไล่เฉดสี (Gradient)
+android:startColor="..."   ➢ สีจุดเริ่มต้น
+android:endColor="..."     ➢ สีจุดสิ้นสุด
+android:centerColor="..."  ➢ สีตรงกลาง (ใช้เมื่อต้องการไล่ 3 สี)
+android:angle="..."        ➢ องศาทิศทางการวิ่งของสี (ทวีคูณของ 45 เช่น 0, 45, 90)
+android:type="..."         ➢ รูปแบบการกระจายสี (เช่น linear หรือ radial)
+
+
+# 3. กลุ่มทำมุมโค้งมน (Corners)ใช้แท็ก <corners /> เพื่อลบเหลี่ยมแหลมๆ
+android:radius="..."            ➢ ตัวเดียวจบ! ปรับให้โค้งมนเท่ากันทั้ง 4 มุม
+android:topLeftRadius="..."     ➢ โค้งมนเฉพาะ มุมบนซ้าย
+android:topRightRadius="..."    ➢ โค้งมนเฉพาะ มุมบนขวา
+android:bottomLeftRadius="..."  ➢ โค้งมนเฉพาะ มุมล่างซ้าย
+android:bottomRightRadius="..." ➢ โค้งมนเฉพาะ มุมล่างขวา
+
+# ✏️ 4. กลุ่มสีพื้นและเส้นขอบ (Solid & Stroke)
+<solid android:color="..." />   ➢ สีพื้นหลัง (ห้ามใช้คู่กับ gradient)
+
+
+</details>
