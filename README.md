@@ -285,3 +285,13 @@ cornersrs
     android:bottomLeftRadius="0dp"
     android:bottomRightRadius="8dp" />***
 
+# ຂະຫນາດ ສີ ຟອນ
+```
+android:textColor="#FF0000"
+```
+```
+android:textSize="20.0sp"
+```
+```
+android:fontFamily="@font/boom"
+```
