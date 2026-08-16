@@ -267,14 +267,16 @@ android:topRightRadius="..."
 android:bottomLeftRadius="..."
 ```
 = ปรับความโค้งเฉพาะ "มุมล่างซ้าย"
-```android:bottomRightRadius="..."
+```
+android:bottomRightRadius="..."
 ```
 = ปรับความโค้งเฉพาะ "มุมล่างขวา"ข้อควรระวัง: ถ้าใส่ **android:radius** ไปแล้ว มันจะคุมทับทุกมุม ทั่วไปจึงมักเลือกใช้อย่างใดอย่างหนึ่ง (โค้งเท่ากันหมดใช้ radius ตัวเดียวจบ
 เก๋ๆ -->
-***<corners
+***
+cornersrs
     android:topLeftRadius="8dp"
     android:topRightRadius="0dp"
     android:bottomLeftRadius="0dp"
-    android:bottomRightRadius="8dp" />***
-
+    android:bottomRightRadius="8dp" />
+    ***
 
