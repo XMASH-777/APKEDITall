@@ -9,6 +9,7 @@
 "<font color="#ffffff">🧩CREATE : ANONYMOUS 모</font>"
 "<font color="#ffff00">⚙️USER : PREMIUM</font></string>
 ```
+**``<string name="b1"><font color="#FFFFFF">WeChat Proxy</font> : <font color="#00FF00">online</font></string>**``
 ```
 <string name="apphome">SUPER<font color="#ffee00"> FAST</font></string>
 ```
