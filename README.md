@@ -193,16 +193,18 @@ android:gravity="bottom"
 ``` 
 (ชิดล่าง)
 
-4. กลุ่มผสมคำสั่ง (ใช้เครื่องหมาย | )
-```
-android:gravity="top|start"
-```
- (ชิดบนและชิดซ้าย)
-```
-android:gravity="bottom|end"
-```
- (ชิดล่างและชิดขวา)
 ```
 android:gravity="center_vertical|end"
 ```
- (กลางแนวตั้งและชิดขวา)
+ (กลางแนวตั้งและชิดขวา) 
+ 
+เอาของข้างในไปไว้ "ด้านบนสุด" และ "ชิดซ้าย"*"
+```
+android:gravity="top|start"
+```
+เอาของข้างในไปไว้ "ด้านล่างสุด" และ "ชิดขวา"
+```
+android:gravity="bottom|end"
+```
+
+
