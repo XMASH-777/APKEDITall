@@ -9,7 +9,8 @@
 "<font color="#ffffff">🧩CREATE : ANONYMOUS 모</font>"
 "<font color="#ffff00">⚙️USER : PREMIUM</font></string>
 ```
-**``<string name="b1"><font color="#FFFFFF">WeChat Proxy</font> : <font color="#00FF00">online</font></string>**``
+```<string name="b1"><font color="#FFFFFF">WeChat Proxy</font> : <font color="#00FF00">online</font></string>
+```
 ```
 <string name="apphome">SUPER<font color="#ffee00"> FAST</font></string>
 ```
@@ -273,11 +274,10 @@ android:bottomRightRadius="..."
 ```
 = ปรับความโค้งเฉพาะ "มุมล่างขวา"ข้อควรระวัง: ถ้าใส่ **android:radius** ไปแล้ว มันจะคุมทับทุกมุม ทั่วไปจึงมักเลือกใช้อย่างใดอย่างหนึ่ง (โค้งเท่ากันหมดใช้ radius ตัวเดียวจบ
 เก๋ๆ -->
-***
+
 cornersrs
-    android:topLeftRadius="8dp"
+***android:topLeftRadius="8dp"
     android:topRightRadius="0dp"
     android:bottomLeftRadius="0dp"
-    android:bottomRightRadius="8dp" />
-    ***
+    android:bottomRightRadius="8dp" />***
 
